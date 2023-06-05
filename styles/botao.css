@@ -1,0 +1,30 @@
+@import url("/styles/style.css");
+
+.secao__botao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: .1em .1em;
+    gap: 2em;
+    border: none;
+    position: absolute;
+    width: 500px;
+    height: 60px;
+    left: 317px;
+    top: 500px;
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: none;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #1B1464;
+    color: var(--branco-botao);
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 800;
+    transition: transform 200ms ease-in-out;
+}
+
+.secao__botao:hover {
+    transform: scale(1.01);
+}

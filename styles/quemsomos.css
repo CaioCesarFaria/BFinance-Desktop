@@ -1,0 +1,420 @@
+/* ESTILOS DA PÁGINA QUEM SOMOS - FORAM CRIADAS CLASSES DIFERENTES */
+
+:root {
+    --preto-principal: black;
+    --azul-primario: #1B1464;
+    --azul-secundario: blue;
+    --branco-botao: #F5F5F5;
+    --cor-de-fundo: white;
+    --fonte-principal: 'Lato';
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: var(--cor-de-fundo);
+    position: absolute;
+    width: 1440px;
+    height: 2096.94px;
+    left: 0px;
+    top: 2px;
+    background-image: url("../img/background_quemSomos.svg");
+    background-repeat: no-repeat;
+
+}
+
+.container main {
+    flex: 1;
+}
+
+.seta__voltar {
+    position: absolute;
+    left: 190px;
+    right: 79.54%;
+    top: 45px;
+    bottom: 93.49%;
+}
+
+.quemSomos__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.container__logo__menor {
+    margin-left: 1000px;
+    margin-top: 28px;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+
+}
+
+.titulo {
+    width: 200px;
+    height: 22px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 135%;
+    color: var(--preto-principal);
+    letter-spacing: 0.24em;
+
+
+}
+
+.quemSomos__container__box {
+    font-size: 28px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 60px;
+    row-gap: 18px;
+}
+
+.quemSomos__container__titulo {
+    position: absolute;
+    width: 615px;
+    height: 67.55px;
+    left: 317px;
+    top: 60px;
+    color: var(--azul-primario);
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: left;
+
+}
+
+.quemSomos__container__subtitulo {
+    position: absolute;
+    width: 663px;
+    height: 94px;
+    left: 317px;
+    top: 145.55px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 144%;
+    color: var(--preto-principal);
+    text-align: left;
+
+}
+
+.quemSomos__inforgrafico__titulo {
+    text-align: left;
+    font-size: 52px;
+    font-weight: 900;
+    color: var(--azul-primario);
+    margin-left: 310px;
+}
+
+.vantagem__Bpo {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #1B1464;
+    position: absolute;
+    width: 802px;
+    height: 355px;
+    left: 317px;
+    top: 265px;
+
+
+}
+
+.vantagem__titulo {
+    color: #FEFEFE;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 144%;
+    padding: 50px 140px 50px 140px;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+
+}
+
+.botoes__rodape {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 51px;
+    margin-top: 22px;
+    margin-left: 482px;
+
+}
+
+.botao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 14px;
+
+
+}
+
+.container__rodape {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #1B1464;
+    position: absolute;
+    width: 1440px;
+    height: 77px;
+    left: 0px;
+    top: 2021px;
+
+}
+
+:any-link {
+    text-decoration: none;
+}
+
+.quemSomos__titulo,
+.servicos__titulo,
+.contato__titulo {
+    height: 0px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 0px;
+    color: #FEFEFE;
+    letter-spacing: 0.305em;
+
+}
+
+/* LISTA DAS VANTAGENS BPO - FORAM CRIADAS CLASSES DIFERENTES */
+
+.vantagem__1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.vantagem__1__titulo {
+    position: absolute;
+    width: 266.67px;
+    height: 22.35px;
+    left: 320px;
+    top: 751px;
+    color: var(--azul-secundario);
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 135%;
+
+}
+
+.vantagem__1__texto {
+    position: absolute;
+    width: 322px;
+    height: 110px;
+    left: 320px;
+    top: 769px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 135%;
+    color: #000000;
+    padding-top: 20px;
+
+
+}
+
+.vantagem__2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.vantagem__2__titulo {
+    position: absolute;
+    width: 181px;
+    height: 66px;
+    left: 990px;
+    top: 955px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 135.5%;
+    text-align: right;
+    color: #0000FF;
+}
+
+.vantagem__2__texto {
+    position: absolute;
+    width: 299px;
+    height: 88px;
+    left: 821px;
+    top: 1029px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 135.5%;
+    text-align: right;
+    color: #000000;
+    text-indent: -55px;
+    padding-left: 55px;
+}
+
+.vantagem__3 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.vantagem__3__titulo {
+    position: absolute;
+    width: 176.75px;
+    height: 76px;
+    left: 320px;
+    top: 1110px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 135%;
+    color: #0000FF;
+    text-align: left;
+}
+
+.vantagem__3__texto {
+    position: absolute;
+    width: 250px;
+    height: 176px;
+    left: 320px;
+    top: 1194px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 135%;
+    color: #000000;
+    text-align: left;
+}
+
+.vantagem__4 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.vantagem__4__titulo {
+    position: absolute;
+    width: 185px;
+    height: 76px;
+    left: 990px;
+    top: 1294px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 135%;
+    color: #0000FF;
+    text-align: right;
+
+}
+
+.vantagem__4__texto {
+    position: absolute;
+    width: 319px;
+    height: 110px;
+    left: 802px;
+    top: 1378px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 135%;
+    text-align: right;
+    color: #000000;
+    text-indent: -55px;
+    padding-left: 55px;
+}
+
+.vantagem__5 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.vantagem__5__titulo {
+    position: absolute;
+    width: 254px;
+    height: 103px;
+    left: 320px;
+    top: 1491px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 144%;
+    color: #0000FF;
+
+}
+
+.vantagem__5__texto {
+    position: absolute;
+    width: 339px;
+    height: 154px;
+    left: 320px;
+    top: 1555px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 135%;
+    color: #000000;
+    padding-top: 20px;
+
+}
+
+
+.vantagem__6 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.vantagem__6__titulo {
+    position: absolute;
+    width: 263px;
+    height: 40px;
+    left: 900px;
+    top: 1734px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 144%;
+    text-align: right;
+    color: #0000FF;
+}
+
+.vantagem__6__texto {
+    position: absolute;
+    width: 323px;
+    height: 88px;
+    left: 840px;
+    top: 1776px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 135%;
+    text-align: right;
+    color: #000000;
+
+}
